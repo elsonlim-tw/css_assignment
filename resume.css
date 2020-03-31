@@ -1,0 +1,93 @@
+@import "./header.css";
+a {
+  color: orange;
+}
+
+nav {
+  color: orange;
+}
+.resume {
+  display: grid;
+  /*grid-template-columns: 2fr 1fr;*/
+  grid-template-areas:
+    "name name"
+    "address address"
+    "experience skills"
+    "education education"
+    "personal personal";
+  grid-gap: 16px;
+
+  margin: 16px;
+  border: 1px solid black;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .resume {
+    grid-template-areas:
+      "name"
+      "address"
+      "experience"
+      "skills"
+      "education"
+      "personal";
+  }
+}
+
+.resume-title {
+  grid-area: name;
+  margin: 0;
+  text-align: center;
+}
+
+.address {
+  grid-area: address;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.address address + address {
+  margin-left: 16px;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.personal {
+  grid-area: personal;
+}
+
+.education {
+  grid-area: education;
+}
+
+.info-list h2,
+.info-list h3 {
+  margin: 0;
+}
+
+.info-list li {
+  list-style: none;
+  margin-top: 4px;
+}
+
+.info-list ul {
+  margin-top: 4px;
+  padding: 0;
+}
+
+.info-list p span + span {
+  margin-left: 4px;
+}
+
+.info-list p {
+  display: list-item;
+  list-style: disc;
+  list-style-position: inside;
+}
