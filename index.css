@@ -1,5 +1,6 @@
 @import "./header.css";
 
+/* Don't commit or you can delete away commentted code */
 /*.h1 {
   color: yellow;
 }*/
@@ -8,6 +9,7 @@ a {
   color: orange;
 }
 
+/* Don't commit or you can delete away commentted code */
 p {
   border: 1px solid powderblue;
   /*padding: 30px;*/
@@ -22,17 +24,20 @@ nav {
   margin-top: 16px;
 }
 
+/* Don't commit comments on language syntax meaning */
 .main-content img {
   display: block;
   margin: 0 auto; /* centre the object left and right*/
 }
 
+/* Don't commit comments on language syntax meaning */
 .main-content p,
 .footer p {
   display: block;
   margin: 0 auto; /* centre the object left and right*/
 }
 
+/* Don't commit comments on language syntax meaning */
 .image {
   display: block;
   margin: 0 auto; /* centre the object left and right*/

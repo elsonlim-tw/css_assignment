@@ -1,11 +1,11 @@
-@import "./header.css";
+@import "./header.css"; /* add a empty line after import for reability */
 a {
   color: orange;
 }
 
 nav {
   color: orange;
-}
+} /* add a empty line after each declaration for readability */
 .resume {
   display: grid;
   /*grid-template-columns: 2fr 1fr;*/

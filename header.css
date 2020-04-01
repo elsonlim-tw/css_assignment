@@ -3,9 +3,10 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 32px;
+  height: 32px; /* the height is smaller than the h1 */
   align-items: center;
-  display: flex;
+  /* duplicate flex */
+  display: flex; 
 
   padding: 0 26px 0 26px;
 }
@@ -15,8 +16,8 @@
 }
 
 .header a:hover {
-  color: orange;
-  transform: scale(20);
+  color: orange; /* hover color should be different from orginal nav color */
+  transform: scale(20); /* this is too big!!! */
 }
 
 body {
